@@ -8,7 +8,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss'
   ],
   app: {
-    baseURL: '/lcp/'
+    baseURL: '/lcp/',
+    buildAssetsDir: 'assets',
   },
 
   css: ['./assets/css/main.css'],
