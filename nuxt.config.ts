@@ -28,8 +28,14 @@ export default defineNuxtConfig({
         file: 'ru.yaml'
       }
     ],
-    langDir: 'langs/',
+    langDir: 'langs',
     lazy: false,
     strategy: 'no_prefix',
+    bundle: {
+      runtimeOnly: false,
+    },
+    compilation: {
+      jit: false
+    }
   }
 })
