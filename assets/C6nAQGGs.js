@@ -1,0 +1,1 @@
+import{_ as s}from"./DlAUqK2U.js";import{A as a,B as o,C as t,H as l}from"./D5m6L2pD.js";const n={},r={class:"flex flex-col relative min-h-[100vh]","data-layout":"default"},d={class:"flex-1 main"};function f(c,e){return a(),o("div",r,[e[0]||(e[0]=t("div",null,"ccccccccc",-1)),t("main",d,[l(c.$slots,"default")])])}const m=s(n,[["render",f]]);export{m as default};

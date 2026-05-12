@@ -1,0 +1,1 @@
+import{_ as e}from"./DlAUqK2U.js";import{B as t,A as s}from"./D5m6L2pD.js";const o={class:"testr"},_={__name:"index",setup(c){return(r,a)=>(s(),t("div",o," ... "))}},d=e(_,[["__scopeId","data-v-4c04db35"]]);export{d as default};
