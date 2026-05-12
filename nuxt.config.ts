@@ -15,10 +15,20 @@ export default defineNuxtConfig({
   css: ['./assets/css/main.css'],
 
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'ru',
     locales: [
-      { code: 'en', name: 'English' },
-      { code: 'ru', name: 'Русский' }
-    ]
+      {
+        code: 'en',
+        name: 'English',
+        file: 'en.yaml'
+      },
+      {
+        code: 'ru',
+        name: 'Русский',
+        file: 'ru.yaml'
+      }
+    ],
+    langDir: 'langs/',
+    lazy: true
   }
 })
