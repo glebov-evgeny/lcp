@@ -1,12 +1,13 @@
 export default defineNuxtConfig({
+  compatibilityDate: '2026-05-12',
   devtools: { enabled: true },
-
   ssr: true,
 
   modules: [
     '@nuxtjs/i18n',
     '@nuxtjs/tailwindcss'
   ],
+
   app: {
     baseURL: '/lcp/',
     buildAssetsDir: 'assets',
@@ -16,26 +17,13 @@ export default defineNuxtConfig({
 
   i18n: {
     defaultLocale: 'ru',
-    locales: [
-      {
-        code: 'en',
-        name: 'English',
-        file: 'en.yaml'
-      },
-      {
-        code: 'ru',
-        name: 'Русский',
-        file: 'ru.yaml'
-      }
-    ],
-    langDir: 'langs',
+    langDir: '../locales/langs',
     lazy: false,
     strategy: 'no_prefix',
-    bundle: {
-      runtimeOnly: false,
-    },
-    compilation: {
-      jit: false
-    }
+    locales: [
+      { code: 'en', file: 'en.yaml' },
+      { code: 'ru', file: 'ru.yaml' }
+    ],
+    vueI18n: './i18n.config.ts' 
   }
 })
