@@ -13,8 +13,18 @@ export default defineNuxtConfig({
     buildAssetsDir: 'assets',
   },
 
-  css: ['./assets/css/main.css'],
+  css: ['./assets/css/main.css', '~/assets/scss/main.scss'],
 
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "~/assets/scss/variables/_colors.scss" as *;'
+        }
+      }
+    }
+  },
+  
   i18n: {
     defaultLocale: 'ru',
     langDir: '../locales/langs',
