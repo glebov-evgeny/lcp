@@ -1,0 +1,1 @@
+const t={status:{UnderConsideration:{t:0,b:{t:2,i:[{t:3}],s:"На рассмотрении"}},Revision:{t:0,b:{t:2,i:[{t:3}],s:"Доработка"}},Approved:{t:0,b:{t:2,i:[{t:3}],s:"Одобрена"}},Confirmed:{t:0,b:{t:2,i:[{t:3}],s:"Подтверждена"}},Rejected:{t:0,b:{t:2,i:[{t:3}],s:"Отклонена"}}}};export{t as default};
