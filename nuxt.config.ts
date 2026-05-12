@@ -29,6 +29,7 @@ export default defineNuxtConfig({
       }
     ],
     langDir: 'langs/',
-    lazy: true
+    lazy: false,
+    strategy: 'no_prefix',
   }
 })
