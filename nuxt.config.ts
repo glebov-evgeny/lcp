@@ -24,6 +24,13 @@ export default defineNuxtConfig({
       { code: 'en', file: 'en.yaml' },
       { code: 'ru', file: 'ru.yaml' }
     ],
-    vueI18n: './i18n.config.ts' 
+    vueI18n: './i18n.config.ts',
+    experimental: {
+      jsCompositionFunctions: true
+    },
+    bundle: {
+      fullInstall: true,
+      runtimeOnly: false
+    } 
   }
 })
