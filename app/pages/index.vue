@@ -1,11 +1,10 @@
 <template>
   <div class="testr">
-    ...
+    <AppThemeToggle />
   </div>
 </template>
 
 <script setup>
-// Скрипт может быть пустым
 </script>
 <style lang="scss" scoped>
 .testr {

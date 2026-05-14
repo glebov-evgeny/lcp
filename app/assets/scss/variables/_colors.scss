@@ -1,22 +1,14 @@
-/* stylelint-disable */
 :root {
   --color-main: #ffffff;
   --color-second: #49493f;
+  
   --color-white: #fff;
   --color-black: #49493f;
-  
-  .dark-themes {
-    --color-main: #49493f;
-    --color-second: #eae7dc;
-    --color-white: #fff;
-    --color-black: #49493f;
-  
-    // .m-popup__close-icon,
-    // .photo-preview-wrapper-image,
-    // .s-arts-create-image-item-image-default,
-    // .m-arts-add-icon {
-    //   filter: invert(1);
-    // }
-  }
 }
-/* stylelint-enable */
+.themes-dark {
+  --color-main: #49493f;
+  --color-second: #eae7dc;
+
+  --color-white: #fff;
+  --color-black: #49493f;
+}

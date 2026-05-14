@@ -11,7 +11,7 @@
     <div class="mt-8 max-w-2xl mx-auto">
       <SwiperTest />
     </div>
-     <NuxtRouteAnnouncer />
+    <NuxtRouteAnnouncer />
     <NuxtWelcome /> 
   </div>
 </template> -->

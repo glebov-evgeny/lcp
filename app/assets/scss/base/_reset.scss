@@ -28,13 +28,13 @@ body {
   text-rendering: optimizeSpeed;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: var(--color-main);
-  color: var(--color-second);
 }
 
 img,
 picture {
+  width: 100%;
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
