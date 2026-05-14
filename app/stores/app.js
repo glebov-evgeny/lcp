@@ -1,35 +1,40 @@
+// stores/app.js
 import { defineStore } from 'pinia';
 
 export const useAppStore = defineStore('app', {
-  state: () => {
-    const langCookie = useCookie('siteLang');
-    const themeCookie = useCookie('siteTheme');
-    const tabCookie = useCookie('siteTab');
-
-    return {
-      siteLang: langCookie.value || 'ru',
-      siteTheme: themeCookie.value || 'day',
-      siteTab: tabCookie.value || 'main',
-    };
-  },
+  state: () => ({
+    siteLang: 'ru',
+    siteTheme: 'day',
+    siteTab: 'main',
+  }),
 
   actions: {
-    setLang(lang) {
-      const localeCookie = useCookie('siteLang');
-      localeCookie.value = lang;
-      this.siteLang = lang;
+    initTheme() {
+      const themeCookie = useCookie('siteTheme');
+
+      if (themeCookie.value) {
+        this.siteTheme = themeCookie.value;
+      }
+
+      this.applyTheme();
     },
 
-    setTab(tab) {
-      const tabCookie = useCookie('siteTab');
-      tabCookie.value = tab;
-      this.siteTab = tab;
+    applyTheme() {
+      if (!process.client) return;
+
+      document.documentElement.classList.toggle(
+        'themes-dark',
+        this.siteTheme === 'night'
+      );
     },
 
     setTheme(theme) {
       const themeCookie = useCookie('siteTheme');
+
       themeCookie.value = theme;
       this.siteTheme = theme;
+
+      this.applyTheme();
     },
   },
 });

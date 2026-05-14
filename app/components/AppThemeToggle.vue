@@ -13,11 +13,10 @@ import { useAppStore } from '~/stores/app';
 const appStore = useAppStore();
 
 function toggleTheme() {
-  const nextTheme =
+  appStore.setTheme(
     appStore.siteTheme === 'day'
       ? 'night'
-      : 'day';
-
-  appStore.setTheme(nextTheme);
+      : 'day'
+  );
 }
 </script>
