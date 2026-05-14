@@ -1,4 +1,78 @@
 body {
   background: var(--color-main);
   color: var(--color-second);
+  margin: 0;
+
+}
+
+.main {
+  margin: 0.5rem;
+
+  position: relative; 
+  border: 2px solid var(--color-border);
+  border-radius: .5rem;
+}
+
+.headerex {
+  position: absolute;
+  top: .5rem; 
+  right: .5rem;
+  padding: 0 0 0.5rem 0.5rem; 
+  border-bottom: 2px solid var(--color-border);
+  border-left: 2px solid var(--color-border);
+  border-bottom-left-radius: .5rem;
+  background: var(--color-main);
+  z-index: 10;
+  &__content{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+
+.headerex::before,
+.headerex::after {
+  content: "";
+  position: absolute;
+  width: .5rem;
+  height: .5rem;
+  background: transparent;
+}
+
+/* Верхний стык */
+.headerex::before {
+  top: 1px;
+  left: -8px;
+
+  border-radius: 0 .5rem 0 0;
+  box-shadow: 0.5rem -0.5rem 0 0.5rem var(--color-main);
+
+  clip-path: inset(0 0 0 0);
+  border-right: 2px solid var(--color-border);
+  border-top: 2px solid var(--color-border);
+  margin-top: -1px;
+}
+
+.headerex::after {
+  bottom: -8px;
+  right: 1px;
+  border-radius: 0 .5rem 0 0;
+  box-shadow: 0.5rem -0.5rem 0 0.5rem var(--color-main);
+  border-right: 2px solid var(--color-border);
+  border-top: 2px solid var(--color-border);
+  margin-right: -1px;
+}
+
+.headerex__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: .5rem;
+  background: #0f0a0a;
+  color: #fff;
 }
