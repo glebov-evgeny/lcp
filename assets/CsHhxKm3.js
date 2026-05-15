@@ -1,1 +1,0 @@
-import{u as o}from"./D0qc8eIQ.js";import{o as s,A as a,B as n,C as r,H as l}from"./BJO1cc4_.js";const c={class:"flex flex-col relative min-h-[100vh] s-layout"},i={class:"flex-1 main"},d={__name:"default",setup(m){const e=o();return s(()=>{e.initTheme()}),(t,p)=>(a(),n("div",c,[r("main",i,[l(t.$slots,"default")])]))}};export{d as default};
