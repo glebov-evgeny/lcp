@@ -1,6 +1,6 @@
 <template>
   <div class="testr">
-    <AppThemeToggle />
+    <!-- <AppThemeToggle /> -->
   </div>
 </template>
 
