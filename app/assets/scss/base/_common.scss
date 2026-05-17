@@ -19,7 +19,7 @@ body {
     // inset 1px 1px 1px rgba(255,255,255,0.04);
 }
 
-.headerex {
+.header {
   position: absolute;
   top: .5rem; 
   right: .5rem;
@@ -39,8 +39,8 @@ body {
 }
 
 
-.headerex::before,
-.headerex::after {
+.header::before,
+.header::after {
   content: "";
   position: absolute;
   width: .5rem;
@@ -49,7 +49,7 @@ body {
 }
 
 /* Верхний стык */
-.headerex::before {
+.header::before {
   top: 1px;
   left: -8px;
 
@@ -62,7 +62,7 @@ body {
   margin-top: -1px;
 }
 
-.headerex::after {
+.header::after {
   bottom: -8px;
   right: 1px;
   border-radius: 0 .5rem 0 0;
@@ -72,7 +72,7 @@ body {
   margin-right: -1px;
 }
 
-.headerex__item {
+.header__item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,4 +81,5 @@ body {
   border-radius: .5rem;
   background: #0f0a0a;
   color: #fff;
+  cursor: pointer;
 }

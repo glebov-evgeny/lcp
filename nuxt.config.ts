@@ -25,7 +25,15 @@ export default defineNuxtConfig({
       }
     }
   },
-  
+  components: {
+    global: true,
+    dirs: [
+      { path: '~/components/sections', pathPrefix: false },
+      { path: '~/components/molecules', pathPrefix: false },
+      { path: '~/components/atoms', pathPrefix: false },
+    ],
+  },
+
   i18n: {
     defaultLocale: 'ru',
     langDir: '../locales/langs',

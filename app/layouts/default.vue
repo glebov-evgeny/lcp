@@ -1,11 +1,6 @@
 <template>
   <div class="flex flex-col relative min-h-[100vh] s-layout">
-    <div class="headerex">
-      <div class="headerex__content">
-        <div class="headerex__item">ru</div>
-        <div class="headerex__item">ru</div>
-      </div>
-    </div>
+    <SHeader />
     <main class="flex-1 main">
       <slot />
     </main>
