@@ -9,7 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "deploy": "nuxt generate && gh-pages -d .output/public -t",
-    "commit": "cz"
+    "cz": "git add . && cz"
   },
   "dependencies": {
     "@nuxtjs/i18n": "^10.3.0",
