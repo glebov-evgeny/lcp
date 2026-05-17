@@ -11,9 +11,9 @@
     "issuesType",
     "isIssueAffected"
   ],
-  
-  "useIssues": false,
 
+  "useIssues": false,
+  "issuePrefix": false,
   "messages": {
     "type": "Тип:",
     "subject": "Сообщение:"
