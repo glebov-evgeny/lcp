@@ -1,7 +1,7 @@
 <template>
   <div class="page__content">
     <LangToggle />
-    {{ $t('status.UnderConsideration') }}
+    {{ $t('status.UnderConsideration') }}/
   </div>
 </template>
 

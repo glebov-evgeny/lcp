@@ -6,8 +6,13 @@
     "body",
     "breaking",
     "footer",
-    "issues"
+    "issues",
+    "issuesBody",
+    "issuesType",
+    "isIssueAffected"
   ],
+  
+  "useIssues": false,
 
   "messages": {
     "type": "Тип:",
