@@ -5,7 +5,8 @@
     "scope",
     "body",
     "breaking",
-    "footer"
+    "footer",
+    "issues"
   ],
 
   "messages": {
