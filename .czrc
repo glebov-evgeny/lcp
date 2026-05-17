@@ -16,27 +16,19 @@
   "types": [
     {
       "value": "feat",
-      "name": "feat: ✨ feature"
+      "name": "feat:"
     },
     {
       "value": "fix",
-      "name": "fix: 🐛 fix"
+      "name": "fix:"
     },
     {
       "value": "style",
-      "name": "style: 🎨 styles"
+      "name": "style:"
     },
     {
       "value": "refactor",
-      "name": "refactor: ♻ refactor"
-    },
-    {
-      "value": "docs",
-      "name": "docs: 📝 docs"
-    },
-    {
-      "value": "chore",
-      "name": "chore: ⚙ chore"
+      "name": "refactor:"
     }
   ]
 }
