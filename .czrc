@@ -14,27 +14,19 @@
 
   "useIssues": false,
   "issuePrefix": false,
+
+  "allowCustomIssuePrefix": false,
+  "issuePrefixes": [],
+
   "messages": {
     "type": "Тип:",
     "subject": "Сообщение:"
   },
 
   "types": [
-    {
-      "value": "feat",
-      "name": "feat:"
-    },
-    {
-      "value": "fix",
-      "name": "fix:"
-    },
-    {
-      "value": "style",
-      "name": "style:"
-    },
-    {
-      "value": "refactor",
-      "name": "refactor:"
-    }
+    { "value": "feat", "name": "feat:" },
+    { "value": "fix", "name": "fix:" },
+    { "value": "style", "name": "style:" },
+    { "value": "refactor", "name": "refactor:" }
   ]
 }
