@@ -4,9 +4,10 @@ export default defineNuxtConfig({
   ssr: true,
 
   modules: [
+    '@nuxt/icon',
     '@pinia/nuxt',
     '@nuxtjs/i18n',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
   ],
 
   app: {

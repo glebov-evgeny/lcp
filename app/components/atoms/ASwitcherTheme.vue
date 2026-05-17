@@ -1,9 +1,10 @@
 <template>
   <button
-    class="px-4 py-2 rounded border"
+    class="rounded"
     @click="toggleTheme"
   >
-    Тема: {{ appStore.siteTheme }}
+    <Icon name="tabler:sun" v-if="appStore.siteTheme === 'day'"  />
+    <Icon name="tabler:moon" v-else  />
   </button>
 </template>
 
