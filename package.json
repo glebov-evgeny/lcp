@@ -8,7 +8,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "nuxt generate && gh-pages -d .output/public -t"
+    "deploy": "nuxt generate && gh-pages -d .output/public -t",
+    "commit": "cz"
   },
   "dependencies": {
     "@nuxtjs/i18n": "^10.3.0",
@@ -19,9 +20,16 @@
     "vue": "^3.5.33",
     "vue-router": "^5.0.6"
   },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "packageManager": "pnpm@11.0.9+sha512.34ce82e6780233cf9cad8685029a8f81d2e06196c5a9bad98879f7424940c6817c4e4524fb7d38b8553ceed48b9758b8ebaf1abd3600c232c4c8cf7366086f38",
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.14.0",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
     "gh-pages": "^6.3.0",
     "sass-embedded": "^1.99.0"
   }
