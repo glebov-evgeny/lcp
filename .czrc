@@ -1,0 +1,42 @@
+{
+  "path": "cz-git",
+
+  "skipQuestions": [
+    "scope",
+    "body",
+    "breaking",
+    "footer"
+  ],
+
+  "messages": {
+    "type": "Тип:",
+    "subject": "Сообщение:"
+  },
+
+  "types": [
+    {
+      "value": "feat",
+      "name": "feat: ✨ feature"
+    },
+    {
+      "value": "fix",
+      "name": "fix: 🐛 fix"
+    },
+    {
+      "value": "style",
+      "name": "style: 🎨 styles"
+    },
+    {
+      "value": "refactor",
+      "name": "refactor: ♻ refactor"
+    },
+    {
+      "value": "docs",
+      "name": "docs: 📝 docs"
+    },
+    {
+      "value": "chore",
+      "name": "chore: ⚙ chore"
+    }
+  ]
+}
