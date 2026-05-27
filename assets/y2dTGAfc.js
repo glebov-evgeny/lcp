@@ -1,1 +1,0 @@
-import o from"./CUzAYqnr.js";import{_ as n}from"./DlAUqK2U.js";import{B as s,E as a,G as c,D as r,A as _}from"./DN23LqHT.js";const d={},i={class:"page__content"};function m(e,p){const t=o;return _(),s("div",i,[a(t),c(" "+r(e.$t("status.UnderConsideration"))+"/ ",1)])}const u=n(d,[["render",m],["__scopeId","data-v-20db7489"]]);export{u as default};
