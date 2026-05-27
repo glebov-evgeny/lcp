@@ -1,6 +1,6 @@
 <template>
   <button
-    class="rounded"
+    class="flex items-center justify-center w-8 h-8 cursor-pointer"
     @click="toggleTheme"
   >
     <Icon name="tabler:sun" v-if="appStore.siteTheme === 'day'"  />
