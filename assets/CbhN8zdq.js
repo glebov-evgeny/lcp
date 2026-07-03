@@ -1,0 +1,1 @@
+import{_ as t,B as s,D as n,A as o}from"./BICnu1fR.js";const a={},c={class:"page__content"};function r(e,_){return o(),s("div",c,n(e.$t("status.UnderConsideration")),1)}const i=t(a,[["render",r],["__scopeId","data-v-52c90b4d"]]);export{i as default};
