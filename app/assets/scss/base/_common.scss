@@ -21,25 +21,12 @@ body {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  padding: 1rem;
+  padding: 0;
   border: none;
-  border-radius: 1.5rem;
-  background: var(--color-main);
+  border-radius: 0;
+  background: transparent;
   z-index: 10;
-  box-shadow:
-    5px 5px 12px var(--color-dark-shadow),
-    -5px -5px 12px var(--color-light-shadow),
-    inset 1px 1px 2px var(--color-light-shadow),
-    inset -1px -1px 2px var(--color-dark-shadow);
-  transition: all 0.3s ease;
-
-  &:hover {
-    box-shadow:
-      3px 3px 8px var(--color-dark-shadow),
-      -3px -3px 8px var(--color-light-shadow),
-      inset 1px 1px 2px var(--color-light-shadow),
-      inset -1px -1px 2px var(--color-dark-shadow);
-  }
+  box-shadow: none;
 
   &__content {
     display: flex;
