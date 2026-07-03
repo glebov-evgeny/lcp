@@ -1,16 +1,22 @@
 :root {
-  --color-main: #ffffff;
-  --color-second: #49493f;
-  --color-border: #eee;
+  --color-main: #e8e8f0;
+  --color-second: #4a4a6a;
+  --color-border: transparent;
+
+  --color-light-shadow: rgba(255, 255, 255, 0.8);
+  --color-dark-shadow: rgba(174, 174, 192, 0.4);
 
   --color-white: #fff;
-  --color-black: #49493f;
+  --color-black: #2a2a4a;
 }
 .themes-dark {
-  --color-main: #49493f;
-  --color-second: #eae7dc;
-  --color-border: #565656;
+  --color-main: #2a2a4a;
+  --color-second: #c8c8e0;
+  --color-border: transparent;
+
+  --color-light-shadow: rgba(255, 255, 255, 0.1);
+  --color-dark-shadow: rgba(0, 0, 0, 0.5);
 
   --color-white: #fff;
-  --color-black: #49493f;
+  --color-black: #2a2a4a;
 }
